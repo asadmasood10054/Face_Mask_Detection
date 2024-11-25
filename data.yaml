@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['face_mask']
+
+roboflow:
+  workspace: yerimming
+  project: mask-detection5-fuawg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yerimming/mask-detection5-fuawg/dataset/1
